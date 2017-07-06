@@ -1,0 +1,24 @@
+extends layout
+
+block content
+    section.formWrapper
+        h1 Sign-up
+        section.form
+            form(method='post')
+                label(for='username') Username
+                input(type='text', name='username' id='username')
+                label(for='password') Password
+                input(type='password', name='password' id='password')
+                label(for='confirmPassword') Confirm Password
+                input(type='password', name='confirmPassword' id='confirmPassword')
+                input.button#signup(type='submit')
+                a.signup(href='/users') Sign-in
+        if errors
+            section.errors
+                ul
+                    each val in errors
+                        li= val.msg
+        if !user
+            section.errors
+                ul
+                    li No user found. Please create a new account

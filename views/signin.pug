@@ -1,0 +1,13 @@
+extends layout
+
+block content
+    section.formWrapper
+        h1 Sign-in
+        section.form
+            form(method='post')
+                label(for='username') Username
+                input(type='text', name='username', id='username')
+                label(for='password') Password
+                input(type='password', name='password', id='password')
+                input.button(type='submit')
+                a.signup(href='/users/signup') Sign-up

@@ -1,0 +1,146 @@
+body {
+    padding: 50px;
+    font: 14px 'Source Code Pro', monospace;
+}
+
+a {
+    color: rgba(119, 136, 153, .8);
+}
+
+a:hover {
+    color: rgba(79, 122, 130, .8);
+}
+
+a:active {
+    color: rgba(79, 122, 130, .9);
+}
+
+h1 {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.formWrapper {
+    width: 320px;
+    margin: auto;
+}
+
+.errors {
+    background-color: crimson;
+    color: white;
+    border: 3px solid rgba(255, 255, 255, .8);
+    margin: 5px 0;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    display: flex;
+}
+
+.errors ul {
+    list-style: none;
+    -webkit-padding-start: 15px;
+    -webkit-padding-end: 15px;
+}
+
+.form {
+    background-color: rgba(240, 248, 255, .6);
+    padding: 1rem;
+    border: 3px solid lightslategrey;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.form a {
+    color: rgba(119, 136, 153, .8);
+}
+
+.welcome {
+    width: 320px;
+    margin: auto;
+    text-align: center;
+    background-color: rgba(240, 248, 255, .6);
+    padding: 1rem;
+    border: 3px solid lightslategrey;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.welcome a {
+    color: rgba(119, 136, 153, .8);
+}
+
+.welcome a:hover {
+    color: rgba(79, 122, 130, .8);
+}
+
+.welcome a:active {
+    color: rgba(79, 122, 130, .9);
+}
+
+.welcome a:last-of-type {
+    text-decoration: none;
+}
+
+.userName {
+    font-weight: bold;
+}
+
+.welcome button {
+    display: block;
+    padding: .5rem;
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    border: 1px solid rgb(255, 255, 255);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    background-color: rgba(119, 136, 153, .5);
+    margin: 15px auto;
+    cursor: pointer;
+}
+
+.welcome button:hover {
+    background-color: rgba(79, 122, 130, .8);
+}
+
+.welcome button:active {
+    background-color: rgba(79, 122, 130, .9);
+}
+
+.form input {
+    margin: 5px 0;
+    width: 90%;
+    padding: .5rem;
+}
+
+.button {
+    padding: 1rem;
+    color: rgba(255, 255, 255, .8);
+    font-weight: bold;
+    font-size: 1.5rem;
+    border: 3px solid rgba(255, 255, 255, .8);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    background-color: rgba(119, 136, 153, .3);
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: rgba(79, 122, 130, .5);
+}
+
+.button:active {
+    background-color: rgba(79, 122, 130, .9);
+}
